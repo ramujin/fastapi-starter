@@ -1,5 +1,7 @@
 # FastAPI Starter
 
+This repo is just simple starter code to get started working with the [FastAPI web framework](https://fastapi.tiangolo.com).
+
 ## Prerequesites
 
 You have Python 3.7+ installed
