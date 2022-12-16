@@ -30,13 +30,3 @@ def get_json(name:str) -> dict:
 @router.get("/items/{item_id}")
 def read_item(item_id:int, q:str|None=None):
   return {"item_id": item_id, "query_string": q}
-
-# # AsyncIO Version
-
-# @router.get("/")
-# async def read_root():
-#     return {"Hello": "World"}
-
-# @router.get("/items/{item_id}")
-# async def read_item(item_id: int, q: str|None=None):
-#     return {"item_id": item_id, "query_string": q}
