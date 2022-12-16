@@ -28,5 +28,6 @@ def get_json(name:str) -> dict:
 
 # Example route: returning JSON with an additional query argument
 @router.get("/items/{item_id}")
-def read_item(item_id:int, q:str|None=None):
+def read_item(item_id:int, q:str|None=None) -> dict:
   return {"item_id": item_id, "query_string": q}
+
