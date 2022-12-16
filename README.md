@@ -4,7 +4,9 @@ This repo is just simple starter code to get started working with the [FastAPI w
 
 ## Prerequesites
 
-You have Python 3.7+ installed
+You just need to have Python 3.7+ installed.
+
+## Usage
 
 1. Create a Python virtual environment
 
